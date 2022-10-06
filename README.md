@@ -59,7 +59,7 @@ http://localhost:8000/api/products
 | `priceLessThan` | `string` | **optional**.  |
 
 ```
-data
+Response would contain at most 5 products with the infomation of pagination for rest of the pages in `meta` and `links`keys of there are more than 5 products whereas the `data` key will contain the list of products
 ```
 
 ## Usage/Examples
