@@ -32,6 +32,8 @@ sh php.sh
 php artisan migrate
 php artisan db:seed --class=ProductSeeder
 ```
+Note: You will need to make php.sh file executable 
+
 If you want to test the application with some other data you can replace the json file present at the following location
 ```
 yourproject\src\database\data\products.json
