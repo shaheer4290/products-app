@@ -11,6 +11,7 @@ A web service project to search availble products
 ```
 git clone https://github.com/shaheer4290/products-app.git yourproject
 cd yourproject
+cp src/.env.example src/.env
 ```
 
 2 - Build and run containers
@@ -29,6 +30,7 @@ docker container ls
 4- You will to run the following command to run migration and setup the DB and also seed the initial data
 ```
 sh php.sh
+composer install
 php artisan migrate
 php artisan db:seed --class=ProductSeeder
 ```
